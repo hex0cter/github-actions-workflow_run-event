@@ -37,7 +37,7 @@ jobs:
     steps:
       - run: env
 ```
-
+  
 The second file states that it should only trigger `on` the `workflow_run` event for any `workflows` with the name `Preflight`:
 
 ```yml
